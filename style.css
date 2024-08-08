@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+.container h1{
+    font-size: 2rem;
+    font-family: sans-serif;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+form{
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: aliceblue;
+}
+.height{
+    padding: 20px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.height label{
+    padding: 10px;
+}
+#height{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.weight{
+    padding: 20px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.weight label{
+    padding: 10px;
+}
+#weight{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.calculate{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: bisque;
+    cursor: pointer;
+}
+.weight-guide{
+    padding: 10px;
+    margin: 10px;
+}
+.weight-guide h3{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+.weight-guide p{
+    padding: 10px;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+}
